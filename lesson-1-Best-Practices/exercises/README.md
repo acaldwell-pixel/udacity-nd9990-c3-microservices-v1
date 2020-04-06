@@ -31,10 +31,10 @@ Navigate to the `/lesson-1-Best-Practices/exercises/` directory.
 #### Task 2 - Set the User-specific environment variables
 For this server to work you'll need to access the AWS RDS database and S3 bucket that you set up in the Full  Stack App on AWS Course.  Make sure that the RDS instance is running and that you have defined all of the environment variables in your `./profile` file that is called in the `config.ts`:
 ```bash
-POSTGRESS_USERNAME
-POSTGRESS_PASSWORD
-POSTGRESS_DB
-POSTGRESS_HOST
+POSTGRES_USERNAME
+POSTGRES_PASSWORD
+POSTGRES_DB
+POSTGRES_HOST
 AWS_REGION
 AWS_PROFILE
 AWS_BUCKET
@@ -53,10 +53,10 @@ export PATH=$PATH:/usr/local/mysql/bin/
 ```
 * Add the value for other variables specific for you:
 ```bash
-export POSTGRESS_USERNAME=myusername;
-export POSTGRESS_PASSWORD=mypassword;
-export POSTGRESS_DB=postgres;
-export POSTGRESS_HOST=udagramdemo.abc4def.us-east-2.rds.amazonaws.com;
+export POSTGRES_USERNAME=myusername;
+export POSTGRES_PASSWORD=mypassword;
+export POSTGRES_DB=postgres;
+export POSTGRES_HOST=udagramdemo.abc4def.us-east-2.rds.amazonaws.com;
 export AWS_REGION=us-east-2;
 export AWS_PROFILE=default;
 export AWS_BUCKET=udagramdemo;

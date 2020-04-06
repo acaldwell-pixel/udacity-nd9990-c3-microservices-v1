@@ -27,10 +27,10 @@ export PATH=$PATH:/usr/local/mysql/bin/
 ```
 * Add the value for other variables specific for you:
 ```bash
-export POSTGRESS_USERNAME=myusername;
-export POSTGRESS_PASSWORD=mypassword;
-export POSTGRESS_DB=postgres;
-export POSTGRESS_HOST=udagramdemo.abc4def.us-east-2.rds.amazonaws.com;
+export POSTGRES_USERNAME=myusername;
+export POSTGRES_PASSWORD=mypassword;
+export POSTGRES_DB=postgres;
+export POSTGRES_HOST=udagramdemo.abc4def.us-east-2.rds.amazonaws.com;
 export AWS_REGION=us-east-2;
 export AWS_PROFILE=default;
 export AWS_BUCKET=udagramdemo;
