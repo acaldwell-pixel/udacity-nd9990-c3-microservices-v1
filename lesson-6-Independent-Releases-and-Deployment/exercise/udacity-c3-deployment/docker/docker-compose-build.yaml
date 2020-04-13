@@ -14,5 +14,5 @@ services:
     image: pyrrhus/udacity-restapi-feed
   frontend:
     build:
-      context: ../../udacity-c3-frontend  
-    image: pyrrhus/udacity-frontend
+      context: ../../udacity-c3-frontend
+    image: pyrrhus/udacity-frontend:local
